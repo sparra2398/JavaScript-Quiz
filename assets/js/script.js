@@ -5,29 +5,29 @@ var startButton = document.querySelector(".start");
 console.log(startButton)
 var questions = [
     {
-        text: "Question one",
-        choices: ["html", "css", "js", "english"],
+        text: "Commonly used data types DO Not include:",
+        choices: ["Strings", "Booleans", "Alerts", "Numbers"],
         answer: "2"
     },
     {
-        text: "Question two",
-        choices: ["1", "2", "3", "4"],
+        text: "The condition in an if/else statement is enclosed with ________.",
+        choices: ["Quotes", "Curly Braces", "Parenthesis", "Square Brackets"],
         answer: "2"
     },
     {
-        text: "Question three",
-        choices: ["1", "2", "3", "4"],
-        answer: "2"
+        text: "Arrays in JavaScript can be used to store ________.",
+        choices: ["Numbers and strings", "Other arrays", "Booleans", "All of the above"],
+        answer: "3"
     },
     {
-        text: "Question four",
-        choices: ["1", "2", "3", "4"],
-        answer: "2"
+        text: "String values must be enclosed within ________ when being assigned to variables.",
+        choices: ["Quotes", "Commas", "Curly Braces", "Parenthesis"],
+        answer: "0"
     },
     {
-        text: "Question five",
-        choices: ["1", "2", "3", "4"],
-        answer: "2"
+        text: "A very useful tool used during development and debugging for printing content to the debugger is:",
+        choices: ["JavaScript", "Terminal/Bash", "For Loops", "Console.log"],
+        answer: "3"
     },
 ]
 function startGame(){
