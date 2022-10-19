@@ -37,20 +37,33 @@ document.getElementById("title-page").setAttribute("class", "hide")
 document.getElementById("quiz-page").classList.remove("hide")
 askQuestion()
 }
-
+var Q = 0
 function askQuestion(){
 //start quiz by showing first question and first set of answers
 // --/select html element to display question
 // --/use text content to show question 1
 // --/loop over choices and make 1 button per choice
-document.getElementById("question-text").textContent = questions[0].text;
-questions[0].choices.forEach(function(choice, index){
+document.getElementById("button-box").innerHTML = ""{
+    //create an IF statement for when you are out of questions
+    if ()
+}
+
+
+document.getElementById("question-text").textContent = questions[Q].text;
+questions[Q].choices.forEach(function(choice, index){
     console.log(choice, index)
     var button = document.createElement("button")
     button.textContent = index + 1 + ". " + choice;
     button.setAttribute("value", choice)
     button.onclick = function(){
-        console.log(this.value)
+        if (this.value === questions[Q].answer){
+            console.log("right")
+        }
+        else {
+            console.log("wrong")
+        }
+        Q++;
+        askQuestion()
     }
     document.getElementById("button-box").append(button)
 }) 
