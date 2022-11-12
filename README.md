@@ -9,3 +9,5 @@ Race against the clock to answer 5 questions about JavaScript.
 Watch out! Timer depletes faster when you answer wrong!
 
 Save your scores in local storage and compete against your friends. Have fun!
+
+https://sparra2398.github.io/JavaScript-Quiz/
