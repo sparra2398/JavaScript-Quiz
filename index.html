@@ -12,8 +12,7 @@
         <p>
             View high scores
         </p>
-        <p>
-            Timer: 60
+        <p id="timer">
         </p>
     </header>
     
@@ -25,11 +24,18 @@
             </p>
             <button class="start">Start Game</button>
         </section>
+
         <section id="quiz-page" class="hide">
             <h2 id="question-text"></h2>
             <div id="button-box"></div>
         </section>
-        <section class="hide">Under construction</section>
+        
+        <section class="hide" id="end-page">
+            <h2>Game Over</h2>
+            <label for="initials">Enter your initials:</label>
+            <input type="text" name="initials" id="initials">
+            <button type="btn" id="save-btn">Save</button>
+        </section>
     </main>
     
     <footer>

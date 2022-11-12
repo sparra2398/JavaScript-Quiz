@@ -1,3 +1,13 @@
 .hide {
     display: none
 }
+
+body {
+    background-color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+}
